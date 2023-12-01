@@ -245,7 +245,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://dropcommerce.com/ "
         }
         //  you can add extra buttons here.
       ]
@@ -268,7 +268,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://edsx.ch/"
         }
       ]
     },
@@ -279,7 +279,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
         }
       ]
     },
@@ -290,7 +290,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.andriotto.com/"
         }
       ]
     },
@@ -300,8 +300,8 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Mobile Apps",
+          url: "https://play.google.com/store/apps/developer?id=EvolveCap"
         }
         //  you can add extra buttons here.
       ]
@@ -313,7 +313,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://irineuimoveis.com.br/"
         }
       ]
     },
@@ -324,7 +324,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://play.google.com/store/apps/dev?id=8791399581511884681"
         }
       ]
     }
