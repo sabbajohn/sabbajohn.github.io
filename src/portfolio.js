@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I am a well-versed Back-end & DevOps professional, committed to exploring every possibility to create, improve, and maintain your application infrastructure.",
+  subTitle:
+    "I am a well-versed Back-end & DevOps professional, committed to exploring every possibility to create, improve, and maintain your application infrastructure.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -73,7 +74,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-php"
     },
     {
-      
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -129,7 +129,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Kubernetes",
       fontAwesomeClassname: "fas fa-dharmachakra"
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -181,7 +180,7 @@ const techStack = {
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -196,32 +195,31 @@ const workExperiences = {
       company: "Dropcommerce Inc",
       companylogo: require("./assets/images/dropcommerce-icon-green.png"),
       date: "March 2022 – November 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Development and maintenance of Dropcommerce platform. Maintain API integrations with marketplaces such as BigCommerce, Shopify and others. Develop new features like refund, chat, and active support. I also was responsible for identifying and fixing performance issues and bugs. like the N+1 queries problem. The TDD methodology was implemented to grant the reliability of the new features.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
     {
       role: "Software Engineer",
       company: "EDSX",
       companylogo: require("./assets/images/edsx.jpg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "November 2021 – March 2022",
+      desc: "Enhancing the EDSX investment platform involves adapting and maintaining the system inherited from a prior project. Integration with EOS and Ethereum through APIs ensures seamless management of Smart Contracts, wallet validation, and Token transfers. Our recent focus includes the implementation of NFTs, reflecting our commitment to innovation and meeting evolving investment needs. This ongoing effort aims to provide a sophisticated and future-proof investment experience."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "Andriotto Financial Services",
       companylogo: require("./assets/images/afs.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "November 2021 – March 2022",
+      desc: "As the team leader at Andriotto Financial Services, my role encompassed overseeing development, conducting code reviews, and managing testing processes. Additionally, I played a pivotal role in automating the KYC and onboarding processes, which were previously handled manually."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "Objetiva Digital",
       companylogo: require("./assets/images/objetiva.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "October 2019 – February 2021",
+      desc: "During my time at Objetiva, my involvement extended across numerous projects, ranging from prize-linked insurance to real estate and logistics. This period provided an excellent opportunity for continuous learning and honing my skills as a flexible backend developer, actively contributing to the development of applications utilizing NodeJS, Python, and PHP."
     }
   ]
 };
@@ -275,7 +273,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/eic-acelerator-600.jpg"),
+      image: require("./assets/images/eic-acelerator-600.png"),
       projectName: "EIC Accelerator",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -330,7 +328,6 @@ const bigProjects = {
         }
       ]
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
